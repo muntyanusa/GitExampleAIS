@@ -13,7 +13,7 @@ def dfs(graph, start):
             neighbors = graph[vertex]
             for neighbor, step in neighbors:
                 if neighbor not in visited:
-                    # Пример графа с длиной шага между вершинами
+                    # Пример графа с длиной шага  между вершинами
                     stack.append((neighbor, distance + step))
 
 # --
